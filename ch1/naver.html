@@ -7,7 +7,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
   </head>
   <body>
-    <div>
+    <!-- div tag는 너비가 100%, div의 단점 많이쓰나 구분이 불가능-->
+    <!-- 옛날에서는 id를 만들었다-->
+    <!-- 현재 시멘틱 태그 사용: header section article nav aside footer-->
+    <header>
       <h1><a href="https://www.naver.com">네이버</a></h1>
       <!-- 주석(comment)-->
       <!-- 속성(attribute)-->
@@ -23,8 +26,8 @@
         <!-- button tag로 만든 버튼에 마우스를 가져다 놓으면 화살표모양이다
         css로 손가락모양으로 바꿔주는 경우가 많다(UI/UX)-->
       </fieldset>
-    </div>
-    <div>
+    </header>
+    <nav>
       <ul>
         <!-- unordered list-->
         <!-- ol tag: ordered list, 앞에 숫자가 붙는다-->
@@ -45,8 +48,8 @@
         <li>TV</li>
         <!--list item-->
       </ul>
-    </div>
-    <div>
+    </nav>
+    <main>
       <h2>실시간 검색어</h2>
       <h3>연합뉴스</h3>
       <ol>
@@ -75,9 +78,11 @@
       <h3>법률</h3>
       <h3>쇼핑</h3>
       <h3>쇼핑</h3>
-    </div>
-    <div>공지사항</div>
-    <div>Creators</div>
-    <div>회사소개</div>
+    </main>
+    <footer>
+      <div>공지사항</div>
+      <div>Creators</div>
+      <div>회사소개</div>
+    </footer>
   </body>
 </html>
