@@ -7,6 +7,12 @@
 }
 /* 픽셀은 상대적인 개념이다 모니터의 해상도에 따라 달라진다 */
 
+/* header-search의 자식 h1 */
 #header-search > h1 {
   width: 280px;
 }
+
+/* hear-center의 자손 h1
+#header-center h1 {
+    width: 280px;
+  } */
