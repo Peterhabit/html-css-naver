@@ -22,3 +22,7 @@
 #header-search h2 {
   display: none;
 }
+
+#header-search fieldset {
+  width: 520px;
+}
