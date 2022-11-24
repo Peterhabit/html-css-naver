@@ -10,6 +10,7 @@
 /* header-search의 자식 h1 */
 #header-search > h1 {
   width: 280px;
+  display: inline-block;
 }
 
 /* header-center의 자손 h1
@@ -25,4 +26,5 @@
 
 #header-search fieldset {
   width: 520px;
+  display: inline-block;
 }
