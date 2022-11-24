@@ -17,3 +17,7 @@
 #header-center h1 {
     width: 280px;
   } */
+
+#header-search h2 {
+  display: none;
+}
