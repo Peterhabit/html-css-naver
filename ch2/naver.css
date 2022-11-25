@@ -19,7 +19,6 @@
     width: 280px;
   } */
 
-/* h2는 시각장애인을 위한 스크린리더용이기에 화면에 보이지 않아도 된다 */
 #header-search h2 {
   display: none;
 }
