@@ -1,0 +1,34 @@
+/* 선택자(selector) */
+/* Cascading Style Sheet */
+/*div는 #앞에 생략가능*/
+#header-center {
+  margin: 0 auto;
+  width: 1130px;
+}
+/* 픽셀은 상대적인 개념이다 모니터의 해상도에 따라 달라진다 */
+
+/* header-search의 자식 h1 */
+#header-search > h1 {
+  width: 280px;
+  display: inline-block;
+}
+
+/* header-center의 자손 h1
+일반적으로 더 편리한 자손 선택을 많이 사용한다
+#header-center h1 {
+    width: 280px;
+  } */
+
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+#header-search fieldset {
+  width: 520px;
+  display: inline-block;
+}
