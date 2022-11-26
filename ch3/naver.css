@@ -7,17 +7,19 @@
 }
 /* 픽셀은 상대적인 개념이다 모니터의 해상도에 따라 달라진다 */
 
-/* header-search의 자식 h1 */
-#header-search > h1 {
-  width: 280px;
+#header-search h1 {
+  width: 198px;
+  height: 48px;
   display: inline-block;
+  /* background-image: url(./sp_search.png);
+  background-position: -4px -10px */
+  /* background-repeat: no-repeat; 이미지가 반복하지 않도록*/
+  /* 한줄로 줄일 수 있다  */
+  background: url(./sp_search.png) -4px -10px no-repeat;
 }
-
-/* header-center의 자손 h1
-일반적으로 더 편리한 자손 선택을 많이 사용한다
-#header-center h1 {
-    width: 280px;
-  } */
+#header-search h1 span {
+  display: none;
+}
 
 .blind {
   position: absolute;
