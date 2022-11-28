@@ -57,3 +57,21 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
   padding: 0;
   outline: none;
 }
+
+#header-search fieldset button {
+  width: 49px;
+  height: 49px;
+  border: none;
+  padding: 0;
+  background-color: #03cf5d;
+}
+
+#search-image {
+  width: 21px;
+  height: 21px;
+  background-image: url(sp_search.png);
+  background-position: -3px -60px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 14px;
+}
