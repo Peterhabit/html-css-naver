@@ -52,4 +52,6 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
 
 #header-search fieldset input {
   border: none;
+  padding: 0;
+  outline: none;
 }
