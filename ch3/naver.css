@@ -25,6 +25,7 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
   /* background-repeat: no-repeat; 이미지가 반복하지 않도록*/
   /* 한줄로 줄일 수 있다  */
   background: url(./sp_search.png) -4px -4px no-repeat;
+  vertical-align: middle;
 }
 #header-search h1 span {
   display: none;
@@ -48,6 +49,7 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
   display: inline-block;
   border: 2px solid #03cf5d;
   /* hex 표기법  */
+  vertical-align: middle;
 }
 
 #header-search fieldset input {
