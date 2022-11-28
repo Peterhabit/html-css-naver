@@ -1,0 +1,110 @@
+<!-- html은 접근성(장애인사용자)과 UI/UX를 고려한다-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>네이버</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./naver.css" />
+  </head>
+  <body>
+    <!-- div tag는 너비가 100%, div의 단점 많이쓰나 구분이 불가능-->
+    <!-- 옛날에서는 id를 만들었다-->
+    <!-- 현재 시멘틱 태그 사용: header section article nav aside footer-->
+    <header>
+      <div id="header-center">
+        <!-- 속성명: 값; 속성명2: 값2; -->
+        <!-- 가운데 정렬용 div-->
+        <div>
+          <!-- span tag의 경우 inline, 인라인의 경우 자신의 콘텐츠 크기만 차지-->
+          <!-- inline-block의 경우 width와 height값을 주어 공백을 넣을 수 있다-->
+          <span>네이버를 시작페이지로</span>
+          <span>쥬니어네이버</span>
+          <span>해피빈</span>
+        </div>
+        <div id="header-search">
+          <a href="https://www.naver.com">
+            <h1>
+              <span>네이버</span>
+            </h1>
+          </a>
+
+          <!-- 주석(comment)-->
+          <!-- 속성(attribute)-->
+          <h2 class="blind">검색창</h2>
+          <fieldset>
+            <legend class="blind">검색</legend>
+            <!-- legend: 법례-->
+            <input />
+            <!-- 더 긴글을 입력 받아야할 경우 textarea 태그 사용-->
+            <!-- input type checkbox, radio가 있다-->
+            <!-- radio의 경우 name 속성을 부여하여 그룹으로 묶을 수 있다(택1)-->
+            <button>
+              <span class="blind"> 검색 </span>
+              <span id="search-image"></span>
+            </button>
+            <!-- button tag로 만든 버튼에 마우스를 가져다 놓으면 화살표모양이다
+              css로 손가락모양으로 바꿔주는 경우가 많다(UI/UX)-->
+          </fieldset>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <!-- unordered list-->
+        <!-- ol tag: ordered list, 앞에 숫자가 붙는다-->
+        <li>메일</li>
+        <!--list item-->
+        <li>카페</li>
+        <!--list item-->
+        <li>블로그</li>
+        <!--list item-->
+        <li>지식iN</li>
+        <!--list item-->
+        <li>쇼핑</li>
+        <!--list item-->
+        <li>쇼핑LIVE</li>
+        <!--list item-->
+        <li>Pay</li>
+        <!--list item-->
+        <li>TV</li>
+        <!--list item-->
+      </ul>
+    </nav>
+    <main>
+      <h2>실시간 검색어</h2>
+      <h3>연합뉴스</h3>
+      <ol>
+        <li>
+          [속보] 대통령실 "韓-사우디 MOU, 실현 가능성 높아…네옴시티도 기대"
+        </li>
+        <li>尹 "기가팩토리 韓건설 검토해달라" 머스크 "최우선 후보지"</li>
+        <li>美 추수감사절 앞두고 월마트서 총격…"사망자 10명 이내"</li>
+      </ol>
+
+      <h3>언론사 목록</h3>
+      <ul>
+        <!-- alt attribute를 이용하여 이미지 설명을 적어 시각장애인을 위한 스크린 리더라는 도구를 읽어줄 때 alt를 보고 읽는다-->
+        <li><img src="./003.png" alt="뉴시스" /></li>
+        <li><img src="./005.png" alt="국민일보" /></li>
+      </ul>
+      <!-- i(기울임), b(굵게), span(얇게) tag를 사용해야 하는지에 대한 논쟁이 있다 -->
+      <!-- 디자인적요소는 css가 담당하고 있기에 굳이 html에서 디자인적 요소를 넣어야하는지 의견이 분분하다 -->
+
+      <h3>로그인</h3>
+      <i>
+        <span>네이버</span>
+      </i>
+      로그인
+      <h3>뉴스</h3>
+      <h3>법률</h3>
+      <h3>쇼핑</h3>
+      <h3>쇼핑</h3>
+    </main>
+    <footer>
+      <div>공지사항</div>
+      <div>Creators</div>
+      <div>회사소개</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+/* 브라우저마다 기본 css가 있는데 브라우저마다 값이달라
+css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우저마다 다 다르게 보이지 않는다*/
+/* 선택자(selector) */
+/* Cascading Style Sheet */
+/*div는 #앞에 생략가능*/
+#header-center {
+  margin: 0 auto;
+  width: 1130px;
+}
+/* 픽셀은 상대적인 개념이다 모니터의 해상도에 따라 달라진다 */
+
+#header-search a {
+  text-decoration: none;
+}
+
+#header-search h1 {
+  width: 198px;
+  height: 48px;
+  display: inline-block;
+  /* background-image: url(./sp_search.png);
+  background-position: -4px -10px */
+  /* background-repeat: no-repeat; 이미지가 반복하지 않도록*/
+  /* 한줄로 줄일 수 있다  */
+  background: url(./sp_search.png) -4px -4px no-repeat;
+  vertical-align: middle;
+}
+#header-search h1 span {
+  display: none;
+}
+
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+#header-search fieldset {
+  margin-left: 20px;
+  padding: 12px 0 12px 10px;
+  /* 위오아래왼 시계방향 */
+  width: 521px;
+  height: 49;
+  display: inline-block;
+  border: 2px solid #03cf5d;
+  /* hex 표기법  */
+  vertical-align: middle;
+}
+
+#header-search fieldset input {
+  border: none;
+  padding: 0;
+  outline: none;
+  vertical-align: top;
+  width: 405px;
+  height: 23px;
+}
+
+#header-search fieldset button {
+  width: 49px;
+  height: 49px;
+  border: none;
+  padding: 0;
+  background: #03cf5d;
+}
+
+#search-image {
+  width: 21px;
+  height: 21px;
+  background-image: url(sp_search.png);
+  background-position: -3px -60px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 14px;
+}
