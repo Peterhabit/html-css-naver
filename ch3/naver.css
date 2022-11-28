@@ -47,6 +47,7 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
   height: 49;
   display: inline-block;
   border: 2px solid #03cf5d;
+  /* hex 표기법  */
 }
 
 #header-search fieldset input {
