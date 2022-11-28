@@ -35,6 +35,11 @@
 }
 
 #header-search fieldset {
-  width: 520px;
+  margin-left: 20px;
+  padding: 12px 0px 12px 10px;
+  /* 위오아래왼 시계방향 */
+  width: 521px;
+  height: 49;
   display: inline-block;
+  border: 2px solid #03cf5d;
 }
