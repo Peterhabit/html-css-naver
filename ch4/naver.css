@@ -26,6 +26,9 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
   /* 한줄로 줄일 수 있다  */
   background: url(./sp_search.png) -4px -4px no-repeat;
   vertical-align: middle;
+  position: relative;
+  top: -5px;
+  right: -6px;
 }
 #header-search h1 span {
   display: none;
