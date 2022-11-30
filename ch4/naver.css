@@ -90,7 +90,9 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
   background-position: -3px -60px;
   background-repeat: no-repeat;
   display: inline-block;
-  margin: 14px;
+  position: relative;
+  top: 22%;
+  transform: translateY(-50%);
 }
 
 #fixed {
