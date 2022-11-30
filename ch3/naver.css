@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 /* 브라우저마다 기본 css가 있는데 브라우저마다 값이달라
 css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우저마다 다 다르게 보이지 않는다*/
 /* 선택자(selector) */
