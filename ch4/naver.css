@@ -12,7 +12,7 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
 /* 선택자(selector) */
 /* Cascading Style Sheet */
 /*div는 #앞에 생략가능*/
-#header-center {
+.center-align {
   margin: 0 auto;
   width: 1130px;
 }
