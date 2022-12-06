@@ -106,3 +106,13 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
   border: 1px solid black;
   border-radius: 50px;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
