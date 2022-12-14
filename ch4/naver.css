@@ -18,6 +18,21 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
 }
 /* 픽셀은 상대적인 개념이다 모니터의 해상도에 따라 달라진다 */
 
+#header-top {
+  float: right;
+}
+
+#header-top span:first-child {
+  color: #888;
+  letter-spacing: -1px;
+  font-size: 11px;
+  line-height: 22px;
+}
+
+#header-search {
+  clear: both;
+}
+
 #header-search a {
   text-decoration: none;
 }
