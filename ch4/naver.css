@@ -95,7 +95,7 @@ css리셋을 통해 초기화하여 직접 css를 줘야 사이트가 브라우�
   background: #03cf5d;
   position: absolute;
   right: 0;
-  top: 0;
+  top: -1px;
 }
 
 #search-image {
